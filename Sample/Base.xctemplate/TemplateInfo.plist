@@ -44,8 +44,14 @@
 						<string>Classes/Libs/EGOTableViewPullRefresh/Classes/View/EGORefreshTableHeaderView.m</string>
 						<string>Classes/Libs/EGOTableViewPullRefresh/Resources/blackArrow.png</string>
 						<string>Classes/Libs/EGOTableViewPullRefresh/Resources/blackArrow@2x.png</string>
+						<string>Classes/Libs/EGOTableViewPullRefresh/Resources/blueArrow.png</string>
 						<string>Classes/Libs/EGOTableViewPullRefresh/Resources/blueArrow@2x.png</string>
-						<string>Classes/Libs/EGOTableViewPullRefresh/Resources/blueArrow@2x.png</string>
+						<string>Classes/Libs/EGOTableViewPullRefresh/Resources/grayArrow.png</string>
+						<string>Classes/Libs/EGOTableViewPullRefresh/Resources/grayArrow@2x.png</string>
+						<string>Classes/Libs/EGOTableViewPullRefresh/Resources/grayArrow@2x.png</string>
+						<string>Classes/Libs/EGOTableViewPullRefresh/Resources/whiteArrow.png</string>
+						<string>Classes/Libs/EGOTableViewPullRefresh/Resources/whiteArrow@2x.png</string>
+						<string>Classes/Libs/Services/API/APIService.h</string>
 						<string>Podfile</string>
 					</array>
 				</dict>
@@ -225,6 +231,94 @@
 			<integer>8</integer>
 			<key>PathType</key>
 			<string>Group</string>
+		</dict>
+		<key>Classes/Libs/EGOTableViewPullRefresh/Resources/grayArrow.png</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>Libs</string>
+				<string>EGOTableViewPullRefresh</string>
+				<string>Resources</string>
+			</array>
+			<key>Path</key>
+			<string>./Classes/Libs/EGOTableViewPullRefresh/Resources/grayArrow.png</string>
+			<key>TargetIndices</key>
+			<array/>
+			<key>SortOrder</key>
+			<integer>9</integer>
+			<key>PathType</key>
+			<string>Group</string>
+		</dict>
+		<key>Classes/Libs/EGOTableViewPullRefresh/Resources/grayArrow@2x.png</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>Libs</string>
+				<string>EGOTableViewPullRefresh</string>
+				<string>Resources</string>
+			</array>
+			<key>Path</key>
+			<string>./Classes/Libs/EGOTableViewPullRefresh/Resources/grayArrow@2x.png</string>
+			<key>TargetIndices</key>
+			<array/>
+			<key>SortOrder</key>
+			<integer>10</integer>
+			<key>PathType</key>
+			<string>Group</string>
+		</dict>
+		<key>Classes/Libs/EGOTableViewPullRefresh/Resources/whiteArrow.png</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>Libs</string>
+				<string>EGOTableViewPullRefresh</string>
+				<string>Resources</string>
+			</array>
+			<key>Path</key>
+			<string>./Classes/Libs/EGOTableViewPullRefresh/Resources/whiteArrow.png</string>
+			<key>TargetIndices</key>
+			<array/>
+			<key>SortOrder</key>
+			<integer>11</integer>
+			<key>PathType</key>
+			<string>Group</string>
+		</dict>
+		<key>Classes/Libs/EGOTableViewPullRefresh/Resources/whiteArrow@2x.png</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>Libs</string>
+				<string>EGOTableViewPullRefresh</string>
+				<string>Resources</string>
+			</array>
+			<key>Path</key>
+			<string>./Classes/Libs/EGOTableViewPullRefresh/Resources/whiteArrow@2x.png</string>
+			<key>TargetIndices</key>
+			<array/>
+			<key>SortOrder</key>
+			<integer>12</integer>
+			<key>PathType</key>
+			<string>Group</string>
+		</dict>
+		<key>Classes/Libs/Services/API/APIService.h</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>Libs</string>
+				<string>Services</string>
+				<string>API</string>
+			</array>
+			<key>Path</key>
+			<string>./Classes/Libs/Services/API/APIService.h</string>
+			<key>TargetIndices</key>
+			<array/>
+			<key>SortOrder</key>
+			<integer>13</integer>
 		</dict>
 	</dict>
 </dict>
