@@ -1,0 +1,15 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '7.0'
+
+target 'mTailor' do
+
+pod 'AFNetworking', '~> 2.5'
+pod 'REFrostedViewController', '~> 2.4.7'
+pod 'MBProgressHUD', '~> 0.9.1'
+
+end
+
+target 'mTailorTests' do
+
+end
+

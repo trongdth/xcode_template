@@ -9,17 +9,17 @@ __ERR1__ = 'Missing path to template folder'
 __ERR2__ = 'There is an error with your Xcode!!!'
 __xcode4_project_template_path = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Templates/Project Templates"
 __xcode6_project_template_path = "/Users/" + subprocess.check_output("echo $USER", shell=True).rstrip() + "/Library/Developer/Xcode/Templates/Project Templates"
-__sudo_pwd = "(YOUR_PASSWORD_HERE)"
+__sudo_pwd = "{YOUR_SU_PWD_HERE}"
 
 
 def go_to_template_folder(xcode_template):
-    root_template = "Mroom\ Software"
+    root_template = "MroomSoftware"
     try:
         os.chdir(xcode_template)
         os.system("echo " + __sudo_pwd + " | sudo -S mkdir -p " + root_template)
         os.chdir(xcode_template + "/" + root_template)
-    except OSError:
-        print __ERR2__
+    except OSError as e:
+        print __ERR2__ + " " + e
         exit()
 
 
