@@ -10,7 +10,7 @@ It's used for importing your own template to Xcode
 ## USAGE
 
  1. Open and ios_template.py and change your own password at line 12: __sudo_pwd = "YOUR_PASSWORD_HERE"
- 2. Open terminal and run: python ios_template.py {PATH_TO_YOUR_TEMPLATE}
+ 2. Open terminal and run: python ios_template.py -d {PATH_TO_YOUR_TEMPLATE}
 
 ## Author
 
