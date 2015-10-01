@@ -52,6 +52,16 @@
 						<string>Classes/Libs/EGOTableViewPullRefresh/Resources/whiteArrow.png</string>
 						<string>Classes/Libs/EGOTableViewPullRefresh/Resources/whiteArrow@2x.png</string>
 						<string>Classes/Libs/Services/API/APIService.h</string>
+						<string>Classes/Libs/Services/API/APIService.m</string>
+						<string>Classes/Utilities/NSDateTimeAgo.bundle</string>
+						<string>Classes/Utilities/MD5.h</string>
+						<string>Classes/Utilities/MD5.m</string>
+						<string>Classes/Utilities/NSDate+TimeAgo.h</string>
+						<string>Classes/Utilities/NSDate+TimeAgo.m</string>
+						<string>Classes/Utilities/Util.h</string>
+						<string>Classes/Utilities/Util.m</string>
+						<string>Classes/ViewControllers/Bases/BaseTableViewController.h</string>
+						<string>Classes/ViewControllers/Bases/BaseTableViewController.m</string>
 						<string>Podfile</string>
 					</array>
 				</dict>
@@ -319,6 +329,142 @@
 			<array/>
 			<key>SortOrder</key>
 			<integer>13</integer>
+		</dict>
+		<key>Classes/Libs/Services/API/APIService.m</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>Libs</string>
+				<string>Services</string>
+				<string>API</string>
+			</array>
+			<key>Path</key>
+			<string>./Classes/Libs/Services/API/APIService.m</string>
+			<key>SortOrder</key>
+			<integer>14</integer>
+		</dict>
+		<!-- Utilities -->
+		<key>Classes/Utilities/NSDateTimeAgo.bundle</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>Utilities</string>
+			</array>
+			<key>Path</key>
+			<string>./Classes/Utilities/NSDateTimeAgo.bundle</string>
+			<key>PathType</key>
+			<string>Group</string>
+			<key>SortOrder</key>
+			<integer>15</integer>
+		</dict>
+		<key>Classes/Utilities/MD5.h</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>Utilities</string>
+			</array>
+			<key>Path</key>
+			<string>./Classes/Utilities/MD5.h</string>
+			<key>TargetIndices</key>
+			<array/>
+			<key>SortOrder</key>
+			<integer>16</integer>
+		</dict>
+		<key>Classes/Utilities/MD5.m</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>Utilities</string>
+			</array>
+			<key>Path</key>
+			<string>./Classes/Utilities/MD5.m</string>
+			<key>SortOrder</key>
+			<integer>17</integer>
+		</dict>
+		<key>Classes/Utilities/NSDate+TimeAgo.h</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>Utilities</string>
+			</array>
+			<key>Path</key>
+			<string>./Classes/Utilities/NSDate+TimeAgo.h</string>
+			<key>TargetIndices</key>
+			<array/>
+			<key>SortOrder</key>
+			<integer>18</integer>
+		</dict>
+		<key>Classes/Utilities/NSDate+TimeAgo.m</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>Utilities</string>
+			</array>
+			<key>Path</key>
+			<string>./Classes/Utilities/NSDate+TimeAgo.m</string>
+			<key>SortOrder</key>
+			<integer>19</integer>
+		</dict>
+		<key>Classes/Utilities/Util.h</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>Utilities</string>
+			</array>
+			<key>Path</key>
+			<string>./Classes/Utilities/Util.h</string>
+			<key>TargetIndices</key>
+			<array/>
+			<key>SortOrder</key>
+			<integer>19</integer>
+		</dict>
+		<key>Classes/Utilities/Util.m</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>Utilities</string>
+			</array>
+			<key>Path</key>
+			<string>./Classes/Utilities/Util.m</string>
+			<key>SortOrder</key>
+			<integer>20</integer>
+		</dict>
+		<!-- ViewControllers -->
+		<key>Classes/ViewControllers/Bases/BaseTableViewController.h</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>ViewControllers</string>
+				<string>Bases</string>
+			</array>
+			<key>Path</key>
+			<string>./Classes/ViewControllers/Bases/BaseTableViewController.h</string>
+			<key>TargetIndices</key>
+			<array/>
+			<key>SortOrder</key>
+			<integer>21</integer>
+		</dict>
+		<key>Classes/ViewControllers/Bases/BaseTableViewController.m</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>ViewControllers</string>
+				<string>Bases</string>
+			</array>
+			<key>Path</key>
+			<string>./Classes/ViewControllers/Bases/BaseTableViewController.m</string>
+			<key>SortOrder</key>
+			<integer>22</integer>
 		</dict>
 	</dict>
 </dict>
