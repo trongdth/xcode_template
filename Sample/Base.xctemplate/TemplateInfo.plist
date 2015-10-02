@@ -2,6 +2,19 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>Targets</key>
+	<array>
+		<dict>
+			<key>Frameworks</key>
+			<array>
+				<string>Foundation</string>
+				<string>UIKit</string>
+				<string>CFNetwork</string>
+				<string>SystemConfiguration</string>
+				<string>CoreFoundation</string>
+			</array>
+		</dict>
+	</array>
 	<key>Kind</key>
 	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
 	<key>Identifier</key>
@@ -62,6 +75,18 @@
 						<string>Classes/Utilities/Util.m</string>
 						<string>Classes/ViewControllers/Bases/BaseTableViewController.h</string>
 						<string>Classes/ViewControllers/Bases/BaseTableViewController.m</string>
+						<string>Classes/ViewControllers/Bases/BaseTableViewController.xib</string>
+						<string>Classes/ViewControllers/Bases/BaseViewController.h</string>
+						<string>Classes/ViewControllers/Bases/BaseViewController.m</string>
+						<string>Classes/ViewControllers/Bases/MyNavigationViewController.h</string>
+						<string>Classes/ViewControllers/Bases/MyNavigationViewController.m</string>
+						<string>Classes/ViewControllers/Bases/TouchUITableView.h</string>
+						<string>Classes/ViewControllers/Bases/TouchUITableView.m</string>
+						<string>Classes/ViewControllers/Bases/MenuViewController/MenuViewController.h</string>
+						<string>Classes/ViewControllers/Bases/MenuViewController/MenuViewController.m</string>
+						<string>Defines.h</string>
+						<string>Validations.h</string>
+						<string>MroomSoftware-Prefix.pch</string>
 						<string>Podfile</string>
 					</array>
 				</dict>
@@ -96,12 +121,49 @@
 			<key>TargetIndices</key>
 			<array/>
 		</dict>
+		<key>MroomSoftware-Prefix.pch</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Supporting Files</string>
+			</array>
+			<key>Path</key>
+			<string>./MroomSoftware-Prefix.pch</string>
+			<key>PathType</key>
+			<string>Group</string>
+		</dict>
 		<key>Podfile</key>
 		<dict>
 			<key>TargetIndices</key>
 			<array/>
 			<key>Path</key>
 			<string>./Podfile</string>
+		</dict>
+		<key>Defines.h</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Supporting Files</string>
+			</array>
+			<key>Path</key>
+			<string>./Defines.h</string>
+			<key>PathType</key>
+			<string>Group</string>
+			<key>TargetIndices</key>
+			<array/>
+		</dict>
+		<key>Validations.h</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Supporting Files</string>
+			</array>
+			<key>Path</key>
+			<string>./Validations.h</string>
+			<key>PathType</key>
+			<string>Group</string>
+			<key>TargetIndices</key>
+			<array/>
 		</dict>
 		<key>Base.lproj/Main.storyboard</key>
 		<dict>
@@ -110,7 +172,6 @@
 			<key>SortOrder</key>
 			<integer>99</integer>
 		</dict>
-		<!-- AppConfig -->
 		<key>Classes/AppConfig/AppConfig.h</key>
 		<dict>
 			<key>Group</key>
@@ -137,7 +198,6 @@
 			<key>SortOrder</key>
 			<integer>2</integer>
 		</dict>
-		<!-- Libs -->
 		<key>Classes/Libs/EGOTableViewPullRefresh/Classes/View/EGORefreshTableHeaderView.h</key>
 		<dict>
 			<key>Group</key>
@@ -344,7 +404,6 @@
 			<key>SortOrder</key>
 			<integer>14</integer>
 		</dict>
-		<!-- Utilities -->
 		<key>Classes/Utilities/NSDateTimeAgo.bundle</key>
 		<dict>
 			<key>Group</key>
@@ -437,7 +496,6 @@
 			<key>SortOrder</key>
 			<integer>20</integer>
 		</dict>
-		<!-- ViewControllers -->
 		<key>Classes/ViewControllers/Bases/BaseTableViewController.h</key>
 		<dict>
 			<key>Group</key>
@@ -465,6 +523,133 @@
 			<string>./Classes/ViewControllers/Bases/BaseTableViewController.m</string>
 			<key>SortOrder</key>
 			<integer>22</integer>
+		</dict>
+		<key>Classes/ViewControllers/Bases/BaseTableViewController.xib</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>ViewControllers</string>
+				<string>Bases</string>
+			</array>
+			<key>Path</key>
+			<string>./Classes/ViewControllers/Bases/BaseTableViewController.xib</string>
+			<key>SortOrder</key>
+			<integer>23</integer>
+		</dict>
+		<key>Classes/ViewControllers/Bases/BaseViewController.h</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>ViewControllers</string>
+				<string>Bases</string>
+			</array>
+			<key>Path</key>
+			<string>./Classes/ViewControllers/Bases/BaseViewController.h</string>
+			<key>TargetIndices</key>
+			<array/>
+			<key>SortOrder</key>
+			<integer>24</integer>
+		</dict>
+		<key>Classes/ViewControllers/Bases/BaseViewController.m</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>ViewControllers</string>
+				<string>Bases</string>
+			</array>
+			<key>Path</key>
+			<string>./Classes/ViewControllers/Bases/BaseViewController.m</string>
+			<key>SortOrder</key>
+			<integer>25</integer>
+		</dict>
+		<key>Classes/ViewControllers/Bases/MyNavigationViewController.h</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>ViewControllers</string>
+				<string>Bases</string>
+			</array>
+			<key>Path</key>
+			<string>./Classes/ViewControllers/Bases/MyNavigationViewController.h</string>
+			<key>TargetIndices</key>
+			<array/>
+			<key>SortOrder</key>
+			<integer>26</integer>
+		</dict>
+		<key>Classes/ViewControllers/Bases/MyNavigationViewController.m</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>ViewControllers</string>
+				<string>Bases</string>
+			</array>
+			<key>Path</key>
+			<string>./Classes/ViewControllers/Bases/MyNavigationViewController.m</string>
+			<key>SortOrder</key>
+			<integer>27</integer>
+		</dict>
+		<key>Classes/ViewControllers/Bases/TouchUITableView.h</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>ViewControllers</string>
+				<string>Bases</string>
+			</array>
+			<key>Path</key>
+			<string>./Classes/ViewControllers/Bases/TouchUITableView.h</string>
+			<key>TargetIndices</key>
+			<array/>
+			<key>SortOrder</key>
+			<integer>28</integer>
+		</dict>
+		<key>Classes/ViewControllers/Bases/TouchUITableView.m</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>ViewControllers</string>
+				<string>Bases</string>
+			</array>
+			<key>Path</key>
+			<string>./Classes/ViewControllers/Bases/TouchUITableView.m</string>
+			<key>SortOrder</key>
+			<integer>29</integer>
+		</dict>
+		<key>Classes/ViewControllers/Bases/MenuViewController/MenuViewController.h</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>ViewControllers</string>
+				<string>Bases</string>
+				<string>MenuViewController</string>
+			</array>
+			<key>Path</key>
+			<string>./Classes/ViewControllers/Bases/MenuViewController/MenuViewController.h</string>
+			<key>TargetIndices</key>
+			<array/>
+			<key>SortOrder</key>
+			<integer>30</integer>
+		</dict>
+		<key>Classes/ViewControllers/Bases/MenuViewController/MenuViewController.m</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>ViewControllers</string>
+				<string>Bases</string>
+				<string>MenuViewController</string>
+			</array>
+			<key>Path</key>
+			<string>./Classes/ViewControllers/Bases/MenuViewController/MenuViewController.m</string>
+			<key>SortOrder</key>
+			<integer>31</integer>
 		</dict>
 	</dict>
 </dict>
