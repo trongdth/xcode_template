@@ -108,19 +108,6 @@
 	</array>
 	<key>Definitions</key>
 	<dict>
-		<key>Info.plist</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>Supporting Files</string>
-			</array>
-			<key>Path</key>
-			<string>./Info.plist</string>
-			<key>PathType</key>
-			<string>Group</string>
-			<key>TargetIndices</key>
-			<array/>
-		</dict>
 		<key>MroomSoftware-Prefix.pch</key>
 		<dict>
 			<key>Group</key>
