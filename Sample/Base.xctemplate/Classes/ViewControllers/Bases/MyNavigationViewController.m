@@ -7,7 +7,7 @@
 //
 
 #import "MyNavigationViewController.h"
-//#import "MenuViewController.h"
+#import "MenuViewController.h"
 #import "UIViewController+REFrostedViewController.h"
 #import "REFrostedViewController.h"
 
@@ -22,7 +22,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-//    [self.view addGestureRecognizer:[[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(panGestureRecognized:)]];
+   [self.view addGestureRecognizer:[[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(panGestureRecognized:)]];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -47,7 +47,7 @@
     //
     [self.view endEditing:YES];
     [self.frostedViewController.view endEditing:YES];
-    
+
     // Present the view controller
     //
     [self.frostedViewController presentMenuViewController];
@@ -62,7 +62,7 @@
     //
     [self.view endEditing:YES];
     [self.frostedViewController.view endEditing:YES];
-    
+
     // Present the view controller
     //
     [self.frostedViewController panGestureRecognized:sender];
