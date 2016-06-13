@@ -19,7 +19,7 @@ def go_to_template_folder(xcode_template):
         os.system("echo " + __sudo_pwd + " | sudo -S mkdir -p " + root_template)
         os.chdir(xcode_template + "/" + root_template)
     except OSError as e:
-        print __ERR2__ + " " + e
+        print e
         exit()
 
 
@@ -28,8 +28,8 @@ def copy_template(path):
     xcode_version = re.search("\\d.\\d", value)
     if xcode_version.group() < 6.0:
         go_to_template_folder(__xcode4_project_template_path)
-
-    go_to_template_folder(__xcode6_project_template_path)
+    else:
+        go_to_template_folder(__xcode6_project_template_path)
     os.system("echo " + __sudo_pwd + " | sudo -S cp -R " + path + " .")
 
 
