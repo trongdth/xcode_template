@@ -13,11 +13,10 @@ __sudo_pwd = "{YOUR_SU_PWD_HERE}"
 
 
 def go_to_template_folder(xcode_template):
-    root_template = "MroomSoftware"
+    root_template = xcode_template + "/MroomSoftware"
     try:
-        os.chdir(xcode_template)
-        os.system("echo " + __sudo_pwd + " | sudo -S mkdir -p " + root_template)
-        os.chdir(xcode_template + "/" + root_template)
+        os.system("echo " + __sudo_pwd + " | sudo -S mkdir -pv '" + root_template + "'")
+        os.chdir(root_template)
     except OSError as e:
         print e
         exit()
